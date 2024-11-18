@@ -129,17 +129,21 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 <h4 <a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
 
-  <h5 id="Domain">1. Domain:</h5>
+  <h5 id="Domain">1.) Domain:</h5>
       A Domain in Active Directory (AD) are the fundamental component that organizes and manages network resources such as users, computers and other resources. It is a hierachical structure which defines relationships and security boundaries within an organization.
 </br>
   
-  <h5 id="Organizational-Units">Organizational Units (OUs)</h5>
+  <h5 id="Organizational-Units">2.) Organizational Units (OUs)</h5>
+      Organizational Units (OUs) are containers in AD used to logically structure, organize and manage objects such as users, groups, computers and other OUs within a domain.
   
-  <h5 id="Trees-and-Forests">Trees and Forests</h5>
-    A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com.       
-A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. I each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, xyz.domain.com
-  
-  <h5 id="Domain-Controllers">Domain Controllers (DCs)</h5>
+  <h5 id="Trees-and-Forests">3.) Trees and Forests</h5>
+    A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com. 
+    </br>
+    A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. I each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, efg.domain.com
+    
+    </br>![Screenshot (268)](https://github.com/user-attachments/assets/6f380c87-743d-4e04-8c43-42bb6682c999)
+
+  <h5 id="Domain-Controllers">4.) Domain Controllers (DCs)</h5>
     A Domain Controller (DC) is a type of server within a Windows based network that processes requests for authentication from users, access control and manages security within a computers domain. DCs are often used in conjuction with Active Directory (AD). An example of a DC is our Windows Server 2022 machine. There is also a command line interface (CLI) version of the Windows Server 2022.
 
 
