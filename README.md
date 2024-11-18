@@ -2,7 +2,7 @@
 This project will demonstrate some common Active Directory skills such as creating users, groups, organizational units (OU), group policy objects (GPO) and more.
 
 <h2>Objectives:</h2>
-This project we will demonstrate common task performed by system administrators <i>(Entry-level)</i> on an Active Directory in a Windows environment. This project will allow those to gain knowledge in...
+This project we will demonstrate common task performed by system administrators <i>(Entry-level)</i> on an Active Directory in a Windows environment. This project will allow those to gain technical knowledge and hands on experiencein...
 <h2>A.) Core Active Directory Concepts</h4>
 <h4><a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
   <ol>
