@@ -157,6 +157,34 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 </br><b> ***Note that if server does not restart after installation of restart the server manually and re-log back into the server.***</b>
 
+</br>6. After the server has restarted and you are logged back in. Navigate to the Server Manager Dashboard. When there you should notice a notification (warning symbol) next to the flag on the top right of the dashboard. You will need to click on the notification , then click on "Promote this server to a domain controller".
+
+</br>![Screenshot (274)](https://github.com/user-attachments/assets/6f4e2b3d-3e1a-47cf-aa6d-de4e5e478768)
+
+</br>7. When the "Active Directory Domain Services Configuration Wizard" appears, on the "Deployment Configuration" window select "Add a new forest". You then will need to give your domain a root name, for demonstration purposes we will name domain "ad.project" and click "Next".
+
+</br>![Screenshot (276)](https://github.com/user-attachments/assets/c6f18d4b-5da4-42c5-aa63-a050b80aef61)
+
+</br>8. On the "Domain Controller Options" window, leave the "Forest functional level:" and "Domain function level:" as is (Windows Server 2016). Give yourself a secure DSRM password and save it. Click "Next" to continue. 
+
+</br>![Screenshot (277)](https://github.com/user-attachments/assets/dd91a9f0-6f3e-4c7f-8443-122931784ba6)
+
+</br>9. On the "DNS Options" window, ignore the prompt warning and click "Next"
+
+</br>10. The NetBIOS domain name is used to reference the domain. eg. AD/JasonBourne . Allowed the present NetBIOS name in the input field to remain the same  and click the "Next" button to continue. 
+
+</br>11. In the "Paths" window allow for the locations list to remain as is. Click "Next" to continue.
+
+</br>12. On the "Review Options" note that their is a "View script" button on the bottom right of the window. Here you will be able to export a Windows PowerShell script to automate the  configurations listed in the box above it. Ignore this for now and click "Next" to continue. 
+
+</br>13. Allow the "Prerequisites Check" to run through, was check has passed successfully click the "Install" button. After the installation is done, it will restart the system and when it is back running you will be present with a login that allows you to login via your domain you just created. 
+
+</br>
+
+
+
+
+
   <h5 id="Organizational-Units">2.) Organizational Units (OUs)</h5>
       Organizational Units (OUs) are containers in AD used to logically structure, organize and manage objects such as users, groups, computers and other OUs within a domain.
   
