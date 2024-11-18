@@ -12,13 +12,13 @@ This project we will demonstrate common task performed by system administrators 
     <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
   <ol></ol>
   
-  </br>2.)Objects in AD 
-    Users 
-    Groups, 
-    Computers, 
-    Printers, 
-    Shared Folders
-  </br>-LDAP and Kerberos
+ <h4><a href="#Objects-in-AD">Objects in AD</a></h4>
+  <ol>
+    <li><a href="#Users">Users</a></li>
+    <li><a href="#Groups">Groups</a></li>
+    <li><a href="#Computers">Computers</a></li>
+    <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
+  <ol></ol>
 
 
 
