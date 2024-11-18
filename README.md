@@ -3,8 +3,9 @@ This project will demonstrate some common Active Directory skills such as creati
 
 <h2>Objectives:</h2>
 This project we will demonstrate common task performed by system administrators <i>(Entry-level)</i> on an Active Directory in a Windows environment. This project will allow those to gain knowledge in...
-<h4>Core Active Directory Concepts</h4>
-  <ol>1.)Active Directory Structure
+<h2>Core Active Directory Concepts</h4>
+<h4><a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
+  <ol>
     <li><a href="#Domain">Domain</a></li>
     <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
     <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
