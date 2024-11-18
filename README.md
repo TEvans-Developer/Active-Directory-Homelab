@@ -21,7 +21,7 @@ This project we will demonstrate common task performed by system administrators 
     <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
   </ol>
 
-<h4><a href="#LDAP-and-Kerberos"> 1.)LDAP and Kerberos</a></h4>
+<h4><a href="#LDAP-and-Kerberos">LDAP and Kerberos</a></h4>
 <ol>
   <li><a href="#LDAP">LDAP<i> (Lightweight Directory Access Protocol)</i></a></li>
   <li><a href="#Kerberos">Kerberos</a></li>
