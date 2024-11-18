@@ -14,7 +14,7 @@ This project we will demonstrate common task performed by system administrators 
 </ol>
 
 <h4><a href="#Objects-in-AD">Objects in AD</a></h4>
-  <ol type="1" style="margin:0; padding:0;">
+  <ol type="1">
     <li><a href="#Users">Users</a></li>
     <li><a href="#Groups">Groups</a></li>
     <li><a href="#Computers">Computers</a></li>
