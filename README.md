@@ -191,7 +191,7 @@ Windows Server 2022 IP Address: 192.168.10.10
   <h5 id="Trees-and-Forests">3.) Trees and Forests</h5>
     A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com. 
     </br>
-    A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. I each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, efg.domain.com
+    A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. In each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, efg.domain.com
 
 
 </br>![Screenshot (268)](https://github.com/user-attachments/assets/5b421470-e60b-4d78-91dd-7c4d56eea017)
