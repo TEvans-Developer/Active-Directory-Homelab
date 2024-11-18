@@ -177,9 +177,15 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 </br>12. On the "Review Options" note that their is a "View script" button on the bottom right of the window. Here you will be able to export a Windows PowerShell script to automate the  configurations listed in the box above it. Ignore this for now and click "Next" to continue. 
 
-</br>13. Allow the "Prerequisites Check" to run through, was check has passed successfully click the "Install" button. After the installation is done, it will restart the system and when it is back running you will be present with a login that allows you to login via your domain you just created. 
+</br>13. Allow the "Prerequisites Check" to run through, was check has passed successfully click the "Install" button. After the installation is done, it will restart the system and when it is back running you will be present with a login that allows you to login via your domain you just created.  
 
-</br>
+</br>![Screenshot (279)](https://github.com/user-attachments/assets/2477e9c8-a6e0-470b-aea5-2214d74baa32)
+
+
+</br>14. Log into the server with your admin credentials. You should notice we now have an Active Directory Domain Server (AD DS) and a Domain Name System (DNS) listed on the left side of the Server Manager dashboard now.
+
+</br>![Screenshot (278)](https://github.com/user-attachments/assets/fc706fac-8958-40bd-b1ba-f3373642d2a8)
+
 
 
 
