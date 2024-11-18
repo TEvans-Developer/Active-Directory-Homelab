@@ -108,12 +108,18 @@ This project we will demonstrate common task performed by system administrators 
 
 
 <h2>Requirements:</h2>
+<h3>Host Hardware</h3>
+</br>Windows OS ( 10 or 11)
+</br>16 GB RAM (recommended )
+</br>250 GB Disk-Space (recommended)
 
-
+<h3>Virtual Machines</h3>
 </br><b>Virtual Box</b>: https://www.virtualbox.org/wiki/Downloads
 </br><b>Windows 10</b>: https://www.microsoft.com/en-us/software-download/windows10
 </br><b>Windows Server 2022</b>: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 
 </br> Reference for the installation and configuration of Virtual Box, Windows 10 and Windows Server 2022 machines: https://www.youtube.com/watch?v=2cEj3bS5C0Q&t=182s
+
+
 
 
