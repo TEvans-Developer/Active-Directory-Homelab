@@ -193,6 +193,49 @@ Windows Server 2022 IP Address: 192.168.10.10
 
   <h5 id="Organizational-Units">2.) Organizational Units (OUs)</h5>
       Organizational Units (OUs) are containers in AD used to logically structure, organize and manage objects such as users, groups, computers and other OUs within a domain.
+      
+</br>1.) In order to create an organizational unit we first must be logged in the windows server 2022. We will need to navigate to the Server Manager dashboard and click the "Tools" button on the top right corner of the window. 
+</br>2.) Locate the "Active Directory Users and Computers" tab and click it.
+</br> *** Alternatively you can go to the search menu on the bottom of the windows server machine and type in "Active Directory Users and Computers" and the AD will appear.***
+
+</br>![Screenshot (280)](https://github.com/user-attachments/assets/3ad50190-125d-4d35-ac45-e4c32a3536aa)
+
+</br>3.) We will be forwarded to the "Active Directory Users and Computers" window. You will not that the domain we created will appear or the left side of the screen. If you click the drop down arrow next to the name of the domain you will see different pre-configured OUs such as computers, users and etc. that we will discuss later in the project.
+
+</br>4.) Right-Click the domain then click the "New" tab, navigate to the "Organizational Unit" tab and click it. 
+
+</br>![Screenshot (281)](https://github.com/user-attachments/assets/466734aa-9f59-434b-9c42-4225c4fce3a0)
+
+</br>5.)We want to provide our OU a name. Here we will provide the name "USA". Take note of the box under the name field that says "Protect container from accidental deletion". You can uncheck this box to allow deletion of an OU in the future. We will be shown an alternative way to delete an OU. Leave the box check for now.
+
+</br>![Screenshot (282)](https://github.com/user-attachments/assets/6d490a0c-6706-414b-b19b-96aab0908588)
+
+
+</br>6.) We also can go as far as to provide additional OUs within and OU. Repeat the creation process but this time right-clicking the "USA" OU you created, navigate to "New" and click "Organizational Unit" to create a "HR", "IT", "Sales" and "Research" OU.  
+
+</br>![Screenshot (283)](https://github.com/user-attachments/assets/19fe6948-0fe4-4096-ae2c-01d4d7e7600a)
+
+</br>7.) For a moment lets pretend the "Research" OU we created is no longer a OU in the domain. We want to delete it but the "protect container from accidental deletion" was checked. We will need to click the "View" button on top of the AD window and the check "Advanced Features". 
+
+</br>![Screenshot (284)](https://github.com/user-attachments/assets/e1731beb-5009-45ef-8778-21ebd4b2bab9)
+
+
+</br>8.) We will need to open the drop down menu on the "USA" OU, then right-click the "Research" OU and click "Properties". 
+
+</br>![Screenshot (285)](https://github.com/user-attachments/assets/1a926776-bf9c-4685-ae83-d882b8b1ed76)
+
+</br>9.) We now want to navigate to the "Object" tab. Towards the bottom we will see the same "Protect object from accidental deletion" we saw when we first created our OU's. Uncheck this box, click "Apply" and then "OK".
+
+</br>![Screenshot (286)](https://github.com/user-attachments/assets/b2005bc9-b40d-4d2a-8326-d654fd0df0e0)
+
+</br>10.) We will now right-click the "Research" OU and then click "Delete" and then "Ok". We now will have had deleted an OU. 
+
+</br> *** NOTE: It is important to confirm OU units should be delete prior to doing so. Make sure the OU is empty and that you have moved or backed up all necessary objects (users, groups or child OUs)***
+
+
+
+
+
   
   <h5 id="Trees-and-Forests">3.) Trees and Forests</h5>
     A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com. 
