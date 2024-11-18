@@ -28,7 +28,7 @@ This project we will demonstrate common task performed by system administrators 
   <li><a href="#Kerberos">Kerberos</a></li>
 </ol>
 
-<h2>B.)Active Directory Management Tools</h4>
+<h2>B.) Active Directory Management Tools</h4>
 
 <h4><a href="#ADUC">Active Directory Users and Computers (ADUC)</a></h4>
 <h4><a href="#ADAC">Active Directory Administrative Center (ADAC)</a></h4>
@@ -117,6 +117,10 @@ This project we will demonstrate common task performed by system administrators 
 </br><b>Virtual Box</b>: https://www.virtualbox.org/wiki/Downloads
 </br><b>Windows 10</b>: https://www.microsoft.com/en-us/software-download/windows10
 </br><b>Windows Server 2022</b>: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
+
+<h3>Networking</h3>
+Windows 10 VM IP address: 192.168.10.100
+Windows Server 2022 IP Address: 192.168.10.10
 
 </br> Reference for the installation and configuration of Virtual Box, Windows 10 and Windows Server 2022 machines: https://www.youtube.com/watch?v=2cEj3bS5C0Q&t=182s
 
