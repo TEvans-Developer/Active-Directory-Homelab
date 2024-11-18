@@ -18,7 +18,7 @@ This project we will demonstrate common task performed by system administrators 
     <li><a href="#Groups">Groups</a></li>
     <li><a href="#Computers">Computers</a></li>
     <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
-  <ol></ol>
+  </ol>
 
 <h4><a href="#Objects-in-AD"> 1.)Objects in AD</a></h4>
 <ol>
