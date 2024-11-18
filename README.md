@@ -5,11 +5,10 @@ This project will demonstrate some common Active Directory skills such as creati
 This project we will demonstrate common task performed by system administrators <i>(Entry-level)</i> on an Active Directory in a Windows environment. This project will allow those to gain knowledge in...
 <h4>Core Active Directory Concepts</h4>
   <ol>1.)Active Directory Structure
-    <li><a href="#Domain"></a></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li><a href="#Domain">Domain</a></li>
+    <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
+    <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
+    <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
   <ol></ol>
   
   </br>2.)Objects in AD 
@@ -19,38 +18,6 @@ This project we will demonstrate common task performed by system administrators 
     Printers, 
     Shared Folders
   </br>-LDAP and Kerberos
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-  </br>g
-<h4 id="Domain"> Domain</h4>
 
 
 
