@@ -287,14 +287,56 @@ Windows Server 2022 IP Address: 192.168.10.10
   <li>OU: HR, First name: Susan, Last name: Jones, Logon-name: SJones, password: !Password123</li>
   <li>OU: IT, First name: John, Last name: Doe, Logon-name: JDoe, password: !Password123</li>
   <li>OU: Sales, First name: Jane, Last name: Doe, Logon-name: JDoe001, password: !Password123</li>
+  <li>OU: Sales, First name: Lilly, Last name: Williams, Logon-name: LWilliams, password: !Password123</li>
 </ol>
 
 </br>5.) Take note that our users now appear within their respected OU similar to how user Tom Hanks appeared within the HR OU. 
 
-</br>
+</br>![Screenshot (291)](https://github.com/user-attachments/assets/1ac5457f-161d-4ee5-a332-4e6e7d77f985)
+
+</br>6. We will delete Lilly becuase she no longer works with the company and we must ensure she does not have any more access to the domain to ensure network security. We can delete users by right-clicking the users name, then click "Delete" and selecting "OK" when prompted. 
+
+</br>![Screenshot (292)](https://github.com/user-attachments/assets/f4ba793a-8874-4b60-9791-69a0ad3a77ef)
 
 
 <h5 id="Groups">Groups</h5>
+</br> A Group is an AD object used to manage user permissions and access to resources efficiently. Groups give admins the ability to assign rights and permissions collectively rather than individually to each user.
+
+</br> There are two types of Groups in AD:
+
+<ol>
+  <li>Security Groups: Members of this group inherit the permissions of the assigned group</li>
+  <li>Distribution Groups: Cannot be used to assign permissions to resources</li>
+</ol>
+
+</br> There are three types of Group Scopes in AD:
+
+<ol>
+  <li>Domain Local: Assign permissions to resources within the same domain, includes members from any domain in the forest or trusted domains</li>
+  <li>Global: Group users with similar roles or responsibilties within the same domain and can be added to domain local groups</li>
+  <li>Universal: Used to group users from multiple domains within a forest and best for assigning permissions across the entire forest.</li>
+</ol>
+
+</br>1.) In the HR organizational units we will create a two new groups called "HR-Management" and "HR-NewHire". We will do so by right-clicking HR, click "New" and click "Group". We will name each group with the names we talked about earlier and leave the "Group scope" assigned to "Global" and the "Group type" assigned to "Security". Click OK.
+
+</br>![Screenshot (293)](https://github.com/user-attachments/assets/ba39045f-6a27-4cfd-9a41-f61bae39cdac)
+</br>![Screenshot (294)](https://github.com/user-attachments/assets/6dcb8948-3834-44e6-968b-9f483d4f7ffb)
+
+
+</br>2.) There are two methods to add users to groups. One method is right clicking the user and clicking "Add to a group...". 
+
+</br>![Screenshot (295)](https://github.com/user-attachments/assets/c0277cac-b742-4c3c-84a4-4df5f095f998)
+
+
+</br>3.) When prompt to select a group type in the group name you want to assigned the user into and click "Check Names". Type in "HR-NewHire" to assign both Tom Hanks and Susan Jones in the "HR-NewHire" group. Alternatively typing in only the first 2 letters "HR" and clicking "Check Names" would have provided you a list of both groups that were created so you could select from. 
+
+</br>4.) When added click OK.
+
+
+
+
+
+
 <h5 id="Computers">Computers</h5>
 <h5 id="Printers">Printers, Shared Folders, etc.</h5>
   
