@@ -126,6 +126,7 @@ This project we will demonstrate common task performed by system administrators 
 <h4 <a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
 <ol>
   <li id="Domain">Domain</li>
+      Domains in Active Directory (AD) are the fundamental component that organizes and manages network resources such as users, computers and other devices. It is a hierachical structure which defines relationships and security boundaries within an organization.
   <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
   <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
   <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
