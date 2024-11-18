@@ -12,8 +12,7 @@ This project we will demonstrate common task performed by system administrators 
   <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
   <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
 <ol></ol>
-
-  
+</br>
 <h4><a href="#Objects-in-AD">Objects in AD</a></h4>
   <ol type="1" style="margin:0; padding:0;">
     <li><a href="#Users">Users</a></li>
