@@ -28,7 +28,7 @@ This project we will demonstrate common task performed by system administrators 
   <li><a href="#Kerberos">Kerberos</a></li>
 </ol>
 
-<h2>A.)Active Directory Management Tools</h4>
+<h2>B.)Active Directory Management Tools</h4>
 
 <h4><a href="#ADUC">Active Directory Users and Computers (ADUC)</a></h4>
 <h4><a href="#ADAC">Active Directory Administrative Center (ADAC)</a></h4>
@@ -42,6 +42,39 @@ This project we will demonstrate common task performed by system administrators 
 </ol>
 <h4><a href="#Active-Directory-SS">Active Directory Sites and Services</a></h4>
 
+<h2>C.) Basic Administrative Tasks </h4>
+
+<h4><a href="#User-Group-Management">User and Group Management</a></h4>
+<ol>
+  <li><a href="#Creating-Users">Creating Users</a></li>
+  <li><a href="#Managing-Groups">Managing Groups</a></li>
+</ol>
+
+<h4><a href="#Password-Account-Management">Password and Account Management</a></h4>
+  <ol>
+    <li><a href="#Resetting-Passwords">Resetting Passwords</a></li>
+    <li><a href="#Lockout"></a>Account Lockout Policies</li>
+    <li><a href="#Expiry">Managing Account Expiry</a></li>
+  </ol>
+  
+<h4><a href="#Group-Policy-Basics">Group Policy Basics</a></h4>
+<ol>
+  <li><a href="#GPOs">Group Policy Objects (GPOs)</a></li>
+  <li><a href="#Linking-GPOs">Linking GPOs</a></li>
+  <li><a href="#Settings-GPOs">Common GPO Settings</a></li>
+</ol>
+
+<h4><a href="#Backup-Restore">Active Directory Backup and Restore</a></h4>
+<ol>
+  <li><a href="#Backing-Up-AD">Backing Up AD</a></li>
+  <li><a href="#Restoring-AD">Restoring AD</a></li>
+</ol>
+
+<h4><a href="#Replication">Understanding Replication</a></h4>
+<ol>
+  <li><a href="#AD-Replication">AD Replication</a></li>
+  <li><a href="#Replication-Topology">Replication Topology</a></li>
+</ol>
 
 
 
