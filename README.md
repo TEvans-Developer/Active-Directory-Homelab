@@ -78,6 +78,34 @@ This project we will demonstrate common task performed by system administrators 
 
 
 
+<h2>D.) Security and Permissions </h4>
+
+<h4><a href="#Permissions">Permissions and Access Control</a></h4>
+<ol>
+  <li><a href="#Delegating-Control">Delegating Control</a></li>
+  <li><a href="#NTFS-Permissions">NTFS Permissions</a></li>
+  <li><a href="#GBAC">Group-Based Access Control</a></li>
+</ol>
+
+<h4><a href="#Security-Best-Practices">Active Directory Security Best Practices</a></h4>
+  <ol>
+    <li><a href="#Least-Privilege">Least Privilege</a></li>
+    <li><a href="#Password-Policies">Password Policies</a></li>
+    <li><a href="#Audit-Policies">Audit Policies</a></li>
+  </ol>
+  
+<h2>E.) Common Troubleshooting Techniques</h4>
+
+<h4><a href="#Login-Issues">Troubleshooting Login Issues</a></h4>
+<h4><a href="#Replication-Status">Checking Replication Status</a></h4>
+<h4><a href="#DNS-Settings">Verifying DNS Settings</a></h4>
+<h4><a href="#Event-Viewer">Using Event Viewer</a></h4>
+
+<h2>F.) Common Active Directory Services</h4>
+
+<h4><a href="#AD-CS">Active Directory Certificate Services (AD CS)</a></h4>
+<h4><a href="#AD-FS">Active Directory Federation Services (AD FS)</a></h4>
+
 
 <h2>Requirements:</h2>
 </br><b>Virtual Box</b>
