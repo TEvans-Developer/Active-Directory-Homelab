@@ -140,7 +140,9 @@ Windows Server 2022 IP Address: 192.168.10.10
     A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com. 
     </br>
     A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. I each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, efg.domain.com
-    </br>![Screenshot (268)](https://github.com/user-attachments/assets/6f380c87-743d-4e04-8c43-42bb6682c999)
+
+
+</br>![Screenshot (268)](https://github.com/user-attachments/assets/5b421470-e60b-4d78-91dd-7c4d56eea017)
 
   <h5 id="Domain-Controllers">4.) Domain Controllers (DCs)</h5>
     A Domain Controller (DC) is a type of server within a Windows based network that processes requests for authentication from users, access control and manages security within a computers domain. DCs are often used in conjuction with Active Directory (AD). An example of a DC is our Windows Server 2022 machine. There is also a command line interface (CLI) version of the Windows Server 2022.
