@@ -131,8 +131,7 @@ Windows Server 2022 IP Address: 192.168.10.10
 
   <h5 id="Domain">1.) Domain:</h5>
       A Domain in Active Directory (AD) are the fundamental component that organizes and manages network resources such as users, computers and other resources. It is a hierachical structure which defines relationships and security boundaries within an organization.
-</br>
-      In order to create a domain we first want to start up our Windows Server 2022 machine. We then want to navigate to Server Manager (should appear automatically). 
+</br> In order to create a domain we first want to start up our Windows Server 2022 machine. We then want to navigate to Server Manager (should appear automatically). 
       </br>2. Navigate to the top right corner of server manager where it says "Manage" and right click. 
       </br>3. Click on the "Add Roles and Features" tab.
       
@@ -156,7 +155,7 @@ Windows Server 2022 IP Address: 192.168.10.10
 </br>![Screenshot (273)](https://github.com/user-attachments/assets/31f5779c-7012-4d4c-bba4-3c34a4fe0806)
       </br> "Results" - When installation is completed, Click "Closed"
 
-</br><b> Note that if server does not restart after installation of restart the server manually and re-log back into the server.</b>
+</br><b> ***Note that if server does not restart after installation of restart the server manually and re-log back into the server.***</b>
 
   <h5 id="Organizational-Units">2.) Organizational Units (OUs)</h5>
       Organizational Units (OUs) are containers in AD used to logically structure, organize and manage objects such as users, groups, computers and other OUs within a domain.
