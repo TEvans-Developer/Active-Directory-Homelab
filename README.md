@@ -19,6 +19,48 @@ This project we will demonstrate common task performed by system administrators 
     Printers, 
     Shared Folders
   </br>-LDAP and Kerberos
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
+  g
 <h4 id="Domain"> Domain</h4>
 
 
