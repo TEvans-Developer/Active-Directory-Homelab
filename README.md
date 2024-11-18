@@ -125,7 +125,7 @@ This project we will demonstrate common task performed by system administrators 
 
 <h4 <a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
 <ol>
-  <li><a href="#Domain">Domain</a></li>
+  <li id="Domain">Domain</li>
   <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
   <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
   <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
