@@ -195,8 +195,10 @@ Windows Server 2022 IP Address: 192.168.10.10
       Organizational Units (OUs) are containers in AD used to logically structure, organize and manage objects such as users, groups, computers and other OUs within a domain.
       
 </br>1.) In order to create an organizational unit we first must be logged in the windows server 2022. We will need to navigate to the Server Manager dashboard and click the "Tools" button on the top right corner of the window. 
+
 </br>2.) Locate the "Active Directory Users and Computers" tab and click it.
-</br> *** Alternatively you can go to the search menu on the bottom of the windows server machine and type in "Active Directory Users and Computers" and the AD will appear.***
+
+</br> *** NOTE: Alternatively you can go to the search menu on the bottom of the windows server machine and type in "Active Directory Users and Computers" and the AD will appear.***
 
 </br>![Screenshot (280)](https://github.com/user-attachments/assets/3ad50190-125d-4d35-ac45-e4c32a3536aa)
 
@@ -230,23 +232,36 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 </br>10.) We will now right-click the "Research" OU and then click "Delete" and then "Ok". We now will have had deleted an OU. 
 
+</br>11.) To exit the advanced properties, click the "View" tab on top of the window and uncheck the "Advanced Properties" box.
+
 </br> *** NOTE: It is important to confirm OU units should be delete prior to doing so. Make sure the OU is empty and that you have moved or backed up all necessary objects (users, groups or child OUs)***
 
-
-
-
-
-  
   <h5 id="Trees-and-Forests">3.) Trees and Forests</h5>
     A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com. 
     </br>
     A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. In each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, efg.domain.com
 
-
 </br>![Screenshot (268)](https://github.com/user-attachments/assets/5b421470-e60b-4d78-91dd-7c4d56eea017)
 
   <h5 id="Domain-Controllers">4.) Domain Controllers (DCs)</h5>
     A Domain Controller (DC) is a type of server within a Windows based network that processes requests for authentication from users, access control and manages security within a computers domain. DCs are often used in conjuction with Active Directory (AD). An example of a DC is our Windows Server 2022 machine. There is also a command line interface (CLI) versions of the Windows Server 2022.
+
+
+<h4 id=Objects-in-AD>Objects in AD</h4>
+ 
+<h5 id="Users">Users</h5>
+</br> User(s) is an object that represents an individual or a system that requires authentication to access network resources.
+</br> There can be 4 types of Users in AD. 
+<ol>
+  <li>Domain Users: Standard users accounts created within an AD Domain</li>
+  <li>Local Users: Specific to a single machine and not a part of an AD Domain</li>
+  <li>Built-in Users: Default accounts created during the AD setup ( Admin, Guest, etc.)</li>
+  <li>Service Accounts: Accounts created to run applications, services or scripts.</li>
+</ol>
+<h5 id="Groups">Groups</h5>
+<h5 id="Computers">Computers</h5>
+<h5 id="Printers">Printers, Shared Folders, etc.</h5>
+  
 
 
 
