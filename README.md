@@ -23,10 +23,8 @@ This project we will demonstrate common task performed by system administrators 
 
 <h4><a href="#Objects-in-AD"> 1.)Objects in AD</a></h4>
 <ol>
-  <li><a href="#Users">Users</a></li>
-  <li><a href="#Groups">Groups</a></li>
-  <li><a href="#Computers">Computers</a></li>
-  <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
+  <li><a href="#LDAP">LDAp <li></li>(Lightweight Directory Access Protocol)</i></a></li>
+  <li><a href="#Kerberos">Kerberos</a></li>
 </ol>
 
 
