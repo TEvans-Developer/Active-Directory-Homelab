@@ -20,13 +20,14 @@ This project we will demonstrate common task performed by system administrators 
     <li><a href="#Computers">Computers</a></li>
     <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
   </ol>
-
+  
 <h4><a href="#LDAP-and-Kerberos">LDAP and Kerberos</a></h4>
 <ol>
   <li><a href="#LDAP">LDAP<i> (Lightweight Directory Access Protocol)</i></a></li>
   <li><a href="#Kerberos">Kerberos</a></li>
 </ol>
-</br>
+<h2>A.) Core Active Directory Concepts</h4>
+
 <h4><a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
 <ol>
   <li><a href="#Domain">Domain</a></li>
@@ -42,7 +43,7 @@ This project we will demonstrate common task performed by system administrators 
     <li><a href="#Computers">Computers</a></li>
     <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
   </ol>
-
+  
 <h4><a href="#LDAP-and-Kerberos">LDAP and Kerberos</a></h4>
 <ol>
   <li><a href="#LDAP">LDAP<i> (Lightweight Directory Access Protocol)</i></a></li>
