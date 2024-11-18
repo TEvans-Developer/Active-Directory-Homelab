@@ -128,15 +128,12 @@ Windows Server 2022 IP Address: 192.168.10.10
 <h2>A.) Core Active Directory Concepts</h4>
 
 <h4 <a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
-<ol>
-  <li id="Domain">Domain:</li>
+
+  <h5 id="Domain">1. Domain:</h5>
       A Domain in Active Directory (AD) are the fundamental component that organizes and manages network resources such as users, computers and other resources. It is a hierachical structure which defines relationships and security boundaries within an organization.
 </br>
   
-  <li id="Organizational-Units">Organizational Units (OUs)</li>
-
-  </br>
-  
+  <h5 id="Organizational-Units">Organizational Units (OUs)</h5>
   <li id="Trees-and-Forests">Trees and Forests</li>
     A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com.       
 A Tree in terms of AD is an arrangement of one or more domains with a contiguous namespace. I each domain there are OUs and within each of these OUs are objects (users, pcs and etc.) eg. Domain.com; abc.Domain.com, xyz.domain.com
@@ -145,7 +142,7 @@ A Tree in terms of AD is an arrangement of one or more domains with a contiguous
   <li id="Domain-Controllers">Domain Controllers (DCs)</li>
     A Domain Controller (DC) is a type of server within a Windows based network that processes requests for authentication from users, access control and manages security within a computers domain. DCs are often used in conjuction with Active Directory (AD). An example of a DC is our Windows Server 2022 machine. There is also a command line interface (CLI) version of the Windows Server 2022.
 </br> 
-</ol>
+
 
 
 
