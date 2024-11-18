@@ -6,7 +6,7 @@ This project we will demonstrate common task performed by system administrators 
 
 <h2>A.) Core Active Directory Concepts</h4>
 
-<h4 id= "Active-Directory-Structure"><>Active Directory Structure</a></h4>
+<h4 id="Active-Directory-Structure"><>Active Directory Structure</a></h4>
 <ol>
   <li><a href="#Domain">Domain</a></li>
   <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
