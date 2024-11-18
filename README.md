@@ -26,6 +26,28 @@ This project we will demonstrate common task performed by system administrators 
   <li><a href="#LDAP">LDAP<i> (Lightweight Directory Access Protocol)</i></a></li>
   <li><a href="#Kerberos">Kerberos</a></li>
 </ol>
+</br>
+<h4><a href="#Active-Directory-Structure">Active Directory Structure</a></h4>
+<ol>
+  <li><a href="#Domain">Domain</a></li>
+  <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
+  <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
+  <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
+</ol>
+
+<h4><a href="#Objects-in-AD">Objects in AD</a></h4>
+  <ol>
+    <li><a href="#Users">Users</a></li>
+    <li><a href="#Groups">Groups</a></li>
+    <li><a href="#Computers">Computers</a></li>
+    <li><a href="#Printers">Printers, Shared Folders, etc.</a></li>
+  </ol>
+
+<h4><a href="#LDAP-and-Kerberos">LDAP and Kerberos</a></h4>
+<ol>
+  <li><a href="#LDAP">LDAP<i> (Lightweight Directory Access Protocol)</i></a></li>
+  <li><a href="#Kerberos">Kerberos</a></li>
+</ol>
 
 
 
