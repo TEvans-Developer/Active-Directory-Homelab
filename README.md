@@ -198,7 +198,7 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 </br>2.) Locate the "Active Directory Users and Computers" tab and click it.
 
-</br> *** NOTE: Alternatively you can go to the search menu on the bottom of the windows server machine and type in "Active Directory Users and Computers" and the AD will appear.***
+</br> ***NOTE: Alternatively you can go to the search menu on the bottom of the windows server machine and type in "Active Directory Users and Computers" and the AD will appear.***
 
 </br>![Screenshot (280)](https://github.com/user-attachments/assets/3ad50190-125d-4d35-ac45-e4c32a3536aa)
 
@@ -234,7 +234,7 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 </br>11.) To exit the advanced properties, click the "View" tab on top of the window and uncheck the "Advanced Properties" box.
 
-</br> *** NOTE: It is important to confirm OU units should be delete prior to doing so. Make sure the OU is empty and that you have moved or backed up all necessary objects (users, groups or child OUs)***
+</br> ***NOTE: It is important to confirm OU units should be delete prior to doing so. Make sure the OU is empty and that you have moved or backed up all necessary objects (users, groups or child OUs)***
 
   <h5 id="Trees-and-Forests">3.) Trees and Forests</h5>
     A Forrest in terms of AD is top-level container and consist of one or more trees, share a common schema but may have non-contiguous namespaces eg. Tree1: Domain.com ; Tree2: Domain2.com. 
@@ -246,9 +246,7 @@ Windows Server 2022 IP Address: 192.168.10.10
   <h5 id="Domain-Controllers">4.) Domain Controllers (DCs)</h5>
     A Domain Controller (DC) is a type of server within a Windows based network that processes requests for authentication from users, access control and manages security within a computers domain. DCs are often used in conjuction with Active Directory (AD). An example of a DC is our Windows Server 2022 machine. There is also a command line interface (CLI) versions of the Windows Server 2022.
 
-
 <h4 id=Objects-in-AD>Objects in AD</h4>
- 
 <h5 id="Users">Users</h5>
 </br> User(s) is an object that represents an individual or a system that requires authentication to access network resources.
 </br> There can be 4 types of Users in AD. 
@@ -258,6 +256,44 @@ Windows Server 2022 IP Address: 192.168.10.10
   <li>Built-in Users: Default accounts created during the AD setup ( Admin, Guest, etc.)</li>
   <li>Service Accounts: Accounts created to run applications, services or scripts.</li>
 </ol>
+
+</br> A Users can have different attributes, such as
+<ol>
+  <li>Logon Information: Username, Principal Name and passwords</li>
+  <li>Personal Information: First name, Last name, email, phone number</li>
+  <li>Group Membership: List of security and distribution groups the user belongs to</li>
+  <li>Security Information: Permissions and access rights associated with the account</li>
+  <li>Account Status: Enabled/disabled, password expiry, lockout status</li>
+</ol>
+
+</br>A function of Users is to ensure authentication by using credentials to authenticate against an AD domain controller. Athorization based on permissions and group memberships to determine resources the user can access. Easier to manage by admins.
+
+</br>1.) In order to create an User the steps are similar to that of creating a OU. We will right-click on the "HR" OU select new. We then will click 
+
+</br>![Screenshot (288)](https://github.com/user-attachments/assets/9a7fafff-57f7-4cbc-aaed-bc674c7c6c77)
+
+</br>2.) We will then provide the fields as follows... First name: Tom , Last name: Hanks, User logon name: THanks. We want to ensure that our "ad.project" project name is selected next to the User logon name: field. Click "Next" when finished.
+
+</br>![Screenshot (289)](https://github.com/user-attachments/assets/524b45b5-6c64-4867-aee3-ebd9c84e2da6)
+
+</br>3.) On the password window, we will provide the new user with a password. Typically we would provide the user with a strong password, but for simplicity purposes we will provide the user Tom Hanks with a password of "!Password123" and leave the "User must change password at next logon" box check as we will change the password again when we log in as the user for the first time. Click Finish.
+
+</br>***NOTE: Depending on your companies policies you can check or uncheck the different field based on their needs.*** 
+
+</br>![Screenshot (290)](https://github.com/user-attachments/assets/1c2b913f-e135-457a-9ade-156f6e3f3e7d)
+
+</br>4.) We will now continue creating more users in our HR, IT and Sales OUs with the same password
+<ol>
+  <li>OU: HR, First name: Susan, Last name: Jones, Logon-name: SJones, password: !Password123</li>
+  <li>OU: IT, First name: John, Last name: Doe, Logon-name: JDoe, password: !Password123</li>
+  <li>OU: Sales, First name: Jane, Last name: Doe, Logon-name: JDoe001, password: !Password123</li>
+</ol>
+
+</br>5.) Take note that our users now appear within their respected OU similar to how user Tom Hanks appeared within the HR OU. 
+
+</br>
+
+
 <h5 id="Groups">Groups</h5>
 <h5 id="Computers">Computers</h5>
 <h5 id="Printers">Printers, Shared Folders, etc.</h5>
