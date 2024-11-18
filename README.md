@@ -53,7 +53,7 @@ This project we will demonstrate common task performed by system administrators 
 <h4><a href="#Password-Account-Management">Password and Account Management</a></h4>
   <ol>
     <li><a href="#Resetting-Passwords">Resetting Passwords</a></li>
-    <li><a href="#Lockout"></a>Account Lockout Policies</li>
+    <li><a href="#Lockout">Account Lockout Policies</a></li>
     <li><a href="#Expiry">Managing Account Expiry</a></li>
   </ol>
   
