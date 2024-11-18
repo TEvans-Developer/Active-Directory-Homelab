@@ -121,5 +121,15 @@ This project we will demonstrate common task performed by system administrators 
 </br> Reference for the installation and configuration of Virtual Box, Windows 10 and Windows Server 2022 machines: https://www.youtube.com/watch?v=2cEj3bS5C0Q&t=182s
 
 
+<h2>A.) Core Active Directory Concepts</h4>
+
+<h4 id="Active-Directory-Structure">Active Directory Structure</h4>
+<ol>
+  <li><a href="#Domain">Domain</a></li>
+  <li><a href="#Organizational-Units">Organizational Units (OUs)</a></li>
+  <li><a href="#Trees-and-Forests">Trees and Forests</a></li>
+  <li><a href="#Domain-Controllers">Domain Controllers (DCs)</a></li>
+</ol>
+
 
 
