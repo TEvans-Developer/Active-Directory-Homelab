@@ -344,7 +344,21 @@ Windows Server 2022 IP Address: 192.168.10.10
 </br>![Screenshot (297)](https://github.com/user-attachments/assets/6d90693e-7cf1-4a2d-acd7-1a53dbb8b870)
 
 <h5 id="Computers">Computers</h5>
-</br> Computers are objects within AD that can be either physical or virtual devices within a network. They allow for centralized management, authentication, access control 
+</br> Computers are objects within AD that can be either physical or virtual devices within a network. They allow for centralized management, authentication, access control and more. 
+
+</br>1.) We can add a computer to a domain by logging into our Windows 10 vm workstation and navigating to pc in the search bar. We then will right-click the PC tab and go into properties. Scroll down and click on "Advaced system settings". Click the "Computer Name" tab and go to below click on "Change". We will now click the Domain and provide the name of the domain we created. 
+
+</br>![Screenshot (300)](https://github.com/user-attachments/assets/089cf95d-bd07-40f5-9b97-d44fd324697d)
+
+</br>2.)We now want enter the user name and password of an account with permissions to join the domain. We will use the administrator account and password here. Click OK, close other tab and allow the restart to occur. Once restart is finished attempt to log in with Tom Hanks account or Admin account. Click "Other User", enter the credentials and  Make sure the "Sign in to:" is pointing to the domain we created. In CMD check "hostname" and "whoami" commands to see that you have join the domain as the THanks user.
+
+</br>![Screenshot (301)](https://github.com/user-attachments/assets/91570bfd-435d-42df-9bf3-00c363b8c3c4)
+</br>![Screenshot (302)](https://github.com/user-attachments/assets/9454edbb-d661-432a-a330-15060d8b1e67)
+
+
+
+
+
 <h5 id="Printers">Printers, Shared Folders, etc.</h5>
   
 
