@@ -355,7 +355,7 @@ Windows Server 2022 IP Address: 192.168.10.10
 </br>![Screenshot (301)](https://github.com/user-attachments/assets/91570bfd-435d-42df-9bf3-00c363b8c3c4)
 </br>![Screenshot (302)](https://github.com/user-attachments/assets/9454edbb-d661-432a-a330-15060d8b1e67)
 
-</br> Go into your DC, navigate into the AD Users and Computers tools. You want to click on the Computers OU. This is where you see a new computer has been added, which is our workstation we added to the domain. 
+</br>3.) Go into your DC, navigate into the AD Users and Computers tools. You want to click on the Computers OU. This is where you see a new computer has been added, which is our workstation we added to the domain. 
 
 </br>![Screenshot (303)](https://github.com/user-attachments/assets/78f11d2f-ccd1-4aaa-be53-01bc242f2197)
 
