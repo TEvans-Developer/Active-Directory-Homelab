@@ -330,14 +330,21 @@ Windows Server 2022 IP Address: 192.168.10.10
 
 </br>3.) When prompt to select a group type in the group name you want to assigned the user into and click "Check Names". Type in "HR-NewHire" to assign both Tom Hanks and Susan Jones in the "HR-NewHire" group. Alternatively typing in only the first 2 letters "HR" and clicking "Check Names" would have provided you a list of both groups that were created so you could select from. 
 
+</br>![Screenshot (295)](https://github.com/user-attachments/assets/a4bfb60d-961a-45ba-99da-27e34a6281d3)
+
 </br>4.) When added click OK.
 
+</br>5.) Another way to add a user to a group would be to right-click on the group you'd like to add a user to and then select "Properties". From here we will add the user Tom Hanks to the HR-Management group by clicking the "Members" tab and typing in Toms name, click "Check Names" button, click OK then Apply and the OK again to finish adding the user to the group.
+
+</br>![Screenshot (296)](https://github.com/user-attachments/assets/82638924-8649-42e4-aac3-cc133dd01252)
 
 
+</br>6.) You can verify the user of each group by going into the properties of the groups and checkinig its "members" tab.
 
-
+</br>![Screenshot (297)](https://github.com/user-attachments/assets/6d90693e-7cf1-4a2d-acd7-1a53dbb8b870)
 
 <h5 id="Computers">Computers</h5>
+</br> Computers are objects within AD that can be either physical or virtual devices within a network. They allow for centralized management, authentication, access control 
 <h5 id="Printers">Printers, Shared Folders, etc.</h5>
   
 
